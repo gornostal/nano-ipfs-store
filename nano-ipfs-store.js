@@ -119,7 +119,7 @@ module.exports = function (imports) {
         sendAsync({
           jsonParse: true,
           accept: 'application/json',
-          uri: '/add?raw-leaves=true&pin=true',
+          uri: '/add?pin=true',
           payload: payload,
           boundary: boundary
         }, function(err, result) {
